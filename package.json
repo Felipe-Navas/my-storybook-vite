@@ -1,12 +1,25 @@
 {
   "name": "my-storybook-vite",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A React app for components using storybook with vite",
+  "main": "/src/main.tsx",
+  "author": "Felipe Navas",
+  "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipe-Navas/my-storybook-vite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Felipe-Navas/my-storybook-vite/issues"
+  },
+  "homepage": "https://Felipe-Navas.github.io/my-storybook-vite",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base=./",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "preview": "vite preview"
   },
   "dependencies": {
