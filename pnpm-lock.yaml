@@ -55,6 +55,9 @@ devDependencies:
   '@vitejs/plugin-react-swc':
     specifier: 3.5.0
     version: 3.5.0(vite@5.3.1)
+  chromatic:
+    specifier: ^11.5.6
+    version: 11.5.6
   eslint:
     specifier: 8.57.0
     version: 8.57.0
@@ -1440,7 +1443,7 @@ packages:
     resolution: {integrity: sha1-pVIz4JjoJPg/z7HXMNVmlCSalp4=}
     engines: {node: '>=16.0.0', yarn: '>=1.22.18'}
     dependencies:
-      chromatic: 11.5.4
+      chromatic: 11.5.6
       filesize: 10.1.2
       jsonfile: 6.1.0
       react-confetti: 6.1.0(react@18.3.1)
@@ -4341,8 +4344,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chromatic@11.5.4:
-    resolution: {integrity: sha1-V+cfilrVTRBlbaU8F2EZgGfBibU=}
+  /chromatic@11.5.6:
+    resolution: {integrity: sha1-nSQyNf8Hkwf16LloKrUxXuSOXPg=}
     hasBin: true
     peerDependencies:
       '@chromatic-com/cypress': ^0.*.* || ^1.0.0
